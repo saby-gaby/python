@@ -8,3 +8,17 @@ print(7)
 print(8)
 print(9)
 print(10)
+
+print(25 * "-")
+
+# alternative
+print('''1
+2
+3
+4
+5
+6
+7
+8
+9
+10''')
