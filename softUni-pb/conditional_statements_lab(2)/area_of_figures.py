@@ -18,4 +18,5 @@ elif figure == 'triangle':
     h = float(input())
     area = side * h / 2
 
-print(format(area, '.3f'))
+# print(format(area, '.3f'))
+print(f'{area:.3f}')
