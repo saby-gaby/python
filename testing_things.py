@@ -17,3 +17,10 @@ if is_even(4):
     print('odd')
 else:
     print('even')
+
+words = ['kiwi', 'apple']
+[print(word) for word in words]
+
+example = [1, 2, 2, 3, 5, 6, 8]
+print(*example, sep=', ')
+print(f'{*example,}')
